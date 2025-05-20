@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch SuperStoreBillingApp",
+            "request": "launch",
+            "mainClass": "SuperStoreBillingApp",
+            "projectName": "superstore-billing",
+            "args": "",
+            "vmArgs": "",
+            "classPaths": [
+                "bin",
+                "lib/*"
+            ]
+        }
+    ]
+}

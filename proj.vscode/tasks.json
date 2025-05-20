@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "javac",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "-d", 
+                "bin", 
+                "src/*.java", 
+                "-cp", 
+                "lib/*"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$javac"],
+            "detail": "Generated task by Debugger."
+        }
+    ]
+}
